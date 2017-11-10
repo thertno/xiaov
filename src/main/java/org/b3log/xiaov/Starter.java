@@ -45,6 +45,7 @@ public class Starter {
     }
 
     public static void main(String[] args) throws Exception {
+        System.out.println("begin");
         Latkes.setScanPath("org.b3log.xiaov"); // For Latke IoC
         Latkes.initRuntimeEnv();
 
